@@ -1,0 +1,1 @@
+package com.example.zhubingning.kotlinarchitecturetest.viewclass BaseContract {	interface Presenter<in T> {		fun subscribe()		fun unsubscribe()		fun attach(view: T)	}	interface View {	}}

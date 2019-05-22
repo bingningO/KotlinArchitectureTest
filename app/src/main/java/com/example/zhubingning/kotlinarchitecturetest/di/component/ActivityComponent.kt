@@ -1,0 +1,1 @@
+package com.example.zhubingning.kotlinarchitecturetest.di.componentimport com.example.zhubingning.kotlinarchitecturetest.di.module.ActivityModuleimport com.example.zhubingning.kotlinarchitecturetest.view.main.MainActivityimport dagger.Component@Component(modules = [ActivityModule::class])interface ActivityComponent {	fun inject(mainActivity: MainActivity)}

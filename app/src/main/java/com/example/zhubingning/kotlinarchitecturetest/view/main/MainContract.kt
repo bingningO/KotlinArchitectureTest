@@ -1,0 +1,1 @@
+package com.example.zhubingning.kotlinarchitecturetest.view.mainimport com.example.zhubingning.kotlinarchitecturetest.view.BaseContractclass MainContract {	interface View: BaseContract.View {		fun showAboutFragment()		fun showListFragment()	}	interface Presenter: BaseContract.Presenter<MainContract.View> {		fun onDrawerOptionAboutClick()	}}

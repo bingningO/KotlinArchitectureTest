@@ -1,0 +1,1 @@
+package com.example.zhubingning.kotlinarchitecturetest.di.componentimport com.example.zhubingning.kotlinarchitecturetest.BaseApplicationimport com.example.zhubingning.kotlinarchitecturetest.di.module.ApplicationModuleimport dagger.Component@Component(modules = [ApplicationModule::class])interface ApplicationComponent {	fun inject(application: BaseApplication)}
